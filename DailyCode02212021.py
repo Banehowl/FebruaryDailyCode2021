@@ -1,24 +1,21 @@
-# -------------------------------------------------
-# #	Daily Code	02/12/2021
-#   "Correct the Mistakes" Lesson from edabit.com
+# ----------------------------------------------------------------------
+# #	Daily Code	02/21/2021
+#   "Is the Number Less than or Equal to Zero?" Lesson from edabit.com
 #   Coded by: Banehowl
-# -------------------------------------------------
+# ----------------------------------------------------------------------
 
-# Fix the code in the code tab to pass this challenge (only syntax errors).
-# Look at the examples below to get an idea of what the function should do.
+# Create a function that takes a number as its only argument and returns True if it's less than or equal to zero,
+# ortherwise return False
 
-# squared(5) -> 25
-# squared(9) -> 81
-# squared(100) -> 10000
+# less_than_or_equal_to_zero(5) -> False
+# less_than_or_equal_to_zero(0) -> True
+# less_than_or_equal_to_zero(-2) -> True
 
-# Code to fix:
-# def squaed(b):
-#   return a * a
-
-def squared(a):
-    solution = a * a
-    return(solution)
-
-print squared(5)
-print squared(9)
-print squared(100)
+def less_than_or_equal_to_zero(num):
+    if num <= 0:
+        return True
+    else:
+        return False
+print less_than_or_equal_to_zero(5)
+print less_than_or_equal_to_zero(0)
+print less_than_or_equal_to_zero(-2)
